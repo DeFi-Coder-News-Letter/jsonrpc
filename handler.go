@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/intel-go/fastjson"
+	"github.com/torusresearch/bijson"
 )
 
 // Handler links a method of JSON-RPC request.
 type Handler interface {
-	ServeJSONRPC(c context.Context, params *fastjson.RawMessage) (result interface{}, err *Error)
+	ServeJSONRPC(c context.Context, params *bijson.RawMessage) (result interface{}, err *Error)
 }
 
 // ServeHTTP provides basic JSON-RPC handling.

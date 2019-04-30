@@ -4,16 +4,16 @@ import (
 	"context"
 	"testing"
 
-	"github.com/intel-go/fastjson"
 	"github.com/stretchr/testify/require"
+	"github.com/torusresearch/bijson"
 )
 
 func TestRequestID(t *testing.T) {
 
 	c := context.Background()
-	id := fastjson.RawMessage("1")
+	id := bijson.RawMessage("1")
 	c = WithRequestID(c, &id)
-	var pick *fastjson.RawMessage
+	var pick *bijson.RawMessage
 	require.NotPanics(t, func() {
 		pick = RequestID(c)
 	})
