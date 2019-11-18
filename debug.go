@@ -5,7 +5,7 @@ import (
 	"reflect"
 
 	"github.com/alecthomas/jsonschema"
-	"github.com/torusresearch/bijson"
+	"github.com/torusresearch/torus-common/bijson"
 )
 
 // A MethodReference is a reference of JSON-RPC method.

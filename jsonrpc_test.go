@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/torusresearch/bijson"
+	"github.com/torusresearch/torus-common/bijson"
 )
 
 func TestParseRequest(t *testing.T) {

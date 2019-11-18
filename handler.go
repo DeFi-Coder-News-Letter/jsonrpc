@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/torusresearch/bijson"
+	"github.com/torusresearch/torus-common/bijson"
 )
 
 // Handler links a method of JSON-RPC request.

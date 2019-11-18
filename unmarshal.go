@@ -1,7 +1,7 @@
 package jsonrpc
 
 import (
-	"github.com/torusresearch/bijson"
+	"github.com/torusresearch/torus-common/bijson"
 )
 
 // Unmarshal decodes JSON-RPC params.

@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/torusresearch/bijson"
+	"github.com/torusresearch/torus-common/bijson"
 )
 
 type handler struct {

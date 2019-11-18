@@ -9,7 +9,7 @@ import (
 	"net/http/httptest"
 	"os"
 
-	"github.com/torusresearch/bijson"
+	"github.com/torusresearch/torus-common/bijson"
 )
 
 type (

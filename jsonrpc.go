@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/torusresearch/bijson"
+	"github.com/torusresearch/torus-common/bijson"
 )
 
 const (

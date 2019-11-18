@@ -3,7 +3,7 @@ package jsonrpc
 import (
 	"context"
 
-	"github.com/torusresearch/bijson"
+	"github.com/torusresearch/torus-common/bijson"
 )
 
 type requestIDKey struct{}
